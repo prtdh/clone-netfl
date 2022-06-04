@@ -1,0 +1,22 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+
+}
+.background-image
+{
+filter: brightness(40%);
+height: 70% !important;
+width: 100%;
+}
+
+.logo-image{
+    top: -1px;
+    left: 40px;
+    position: fixed;
+    max-height: 95px;
+   min-width: 150px;
+}
