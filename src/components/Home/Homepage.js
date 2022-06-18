@@ -1,16 +1,38 @@
-import React from 'react'
-import "./Homepage.css"
+import React from "react";
+import "./Homepage.css";
+import Button from "../Button";
+import Homecard from "./Homecard";
+import {Link} from 'react-router-dom';
+
+
 const Homepage = () => {
   return (
     <>
-    <div className="container">
-      <img className='background-image' src="https://assets.nflxext.com/ffe/siteui/vlv3/5ea364b1-8e59-4693-8ad8-f0eaee32d1bf/5b9fdff5-be3d-4fc6-9606-dd1b4002f277/IN-en-20220530-popsignuptwoweeks-perspective_alpha_website_medium.jpg" alt="background-image" />
-      <div className="logo">
-      <img className='logo-image' src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" alt="logo" />
+      <div className="home-data">
+          <div className="home-data-top">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="Netflix"/>
+            
+            <Link to="/signin">
+            <button className="btn btn-danger">Sign in</button>
+        
+ </Link>
+          </div>
+          <div className="home-data-center">
+            <h1> Unlimited movies, TV</h1>
+              <h1> shows and more.</h1>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <input type="email" name="email" id="email" placeholder="Email Address"/>
+            <button className="btn btn-danger" >GET STARTED {'>'} </button>
+          </div>
       </div>
-    </div>
-    </>
-  )
-}
 
-export default Homepage
+        <Homecard title="Enjoy on your TV." description="Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more." image="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" side="right" />
+        <Homecard title="Download your shows to watch offline." description="Save your favourites easily and always have something to watch." image="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" side="left" />
+        <Homecard title="Watch everywhere." description="Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV." image="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png" side="right" />
+        <Homecard title="Create profiles for children." description="Send children on adventures with their favourite characters in a space made just for them—free with your membership." image="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/kidsValueProp.png" side="left" />
+    </>
+  );
+};
+
+export default Homepage;

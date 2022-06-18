@@ -1,0 +1,37 @@
+.card-data{
+    height: 60vh;
+    border-top: 8px solid gray;
+    color: white;
+    display: flex;
+    padding: 5rem;
+    background-color: black;
+}
+
+ .card-data-text{
+     position: relative;
+     top: 4rem;
+     left: 3rem;
+ }
+.card-data-text h1{
+    font-size: 3rem;
+    font-weight:bolder;
+    word-spacing: 0px;
+    text-align: left;
+    
+    
+}
+.card-data-text h3{
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+
+.card-data-img img{
+    height: 120%;
+
+    
+}
+.card-data-img{
+    position: relative;
+    bottom: 4rem;
+
+}

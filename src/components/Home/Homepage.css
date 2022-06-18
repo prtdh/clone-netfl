@@ -1,22 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 
 body{
-    margin: 0px;
-    padding: 0px;
-}
-.container{
-
-}
-.background-image
-{
-filter: brightness(40%);
-height: 70% !important;
-width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+  
 }
 
-.logo-image{
-    top: -1px;
-    left: 40px;
-    position: fixed;
-    max-height: 95px;
-   min-width: 150px;
+
+.home-data {
+  position: relative;
+   height: 100vh;
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/5ea364b1-8e59-4693-8ad8-f0eaee32d1bf/5b9fdff5-be3d-4fc6-9606-dd1b4002f277/IN-hi-20220530-popsignuptwoweeks-perspective_alpha_website_medium.jpg")
+    no-repeat center/cover;
+    background-image: linear-gradient(circle, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000);
 }
+.home-data::after{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgb(0,0,0,0.6);
+
+}
+.home-data-center h1{
+    font-weight: bold;
+}
+
+.home-data-center {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  width:50%;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  z-index: 2;
+}
+
+
+.home-data-center h1 {
+    font-size: 3.5rem;
+}
+.home-data-center input{
+    height: 3.5rem;
+    padding: 0.5em;
+    width: 70%;
+}
+.home-data-center button{
+    height: 3.5rem;
+    border-radius: 0;
+    font-size: 1.5rem;
+}
+.home-data-top {
+  height: 3rem;
+  position: relative;
+  z-index: 2;
+}
+
+.home-data-top img {
+  width: 9rem;
+  top: 50%;
+  position: absolute;
+  left: 4rem;
+}
+
+.home-data-top button {
+  position: absolute;
+  right: 4rem;
+  top: 50%;
+  
+ }
+
+ 
