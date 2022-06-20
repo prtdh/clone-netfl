@@ -70,11 +70,11 @@ function Signinpage() {
           </label>
         </div>
 
-        <Link to="/main">
+        {/* <Link to="/main"> */}
         <button type="submit" class="btn btn-primary">
           Submit
         </button>
-        </Link>
+        {/* </Link> */}
 
       </form>
     </div>
