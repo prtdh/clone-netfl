@@ -23,7 +23,12 @@ const Homepage = () => {
             <h3>Watch anywhere. Cancel anytime.</h3>
             <p>Ready to watch? Enter your email to create or restart your membership.</p>
             <input type="email" name="email" id="email" placeholder="Email Address"/>
-            <button className="btn btn-danger" >GET STARTED {'>'} </button>
+
+          <Link to="/register">
+            <button className="btn btn-danger">GET STARTED {'>'} </button>
+
+          </Link>
+
           </div>
       </div>
 
