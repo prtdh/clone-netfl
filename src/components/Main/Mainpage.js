@@ -3,7 +3,7 @@ import axios from "axios";
 import './Mainpage.css';
 import Row from "./Row";
 import Banner from "./Banner";
-
+import Navbar from "./Navbar";
 
 // movie/popular?api_key=6ab979f45bfff52505cff031005a0eb7`
 

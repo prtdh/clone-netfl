@@ -31,3 +31,8 @@
     max-height: 200px;
     
 }
+.player{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}

@@ -16,7 +16,7 @@ body{
 .home-data {
   position: relative;
    height: 100vh;
-  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/5ea364b1-8e59-4693-8ad8-f0eaee32d1bf/5b9fdff5-be3d-4fc6-9606-dd1b4002f277/IN-hi-20220530-popsignuptwoweeks-perspective_alpha_website_medium.jpg")
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/a795ee10-8c6d-467c-8159-254be2b69013/c08e0e8a-d28f-4d82-bf93-0a9531b58a6d/IN-en-20220912-popsignuptwoweeks-perspective_alpha_website_medium.jpg")
     no-repeat center/cover;
     background-image: linear-gradient(circle, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000);
 }
